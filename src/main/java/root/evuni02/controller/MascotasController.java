@@ -96,7 +96,7 @@ public class MascotasController extends HttpServlet {
             String vacuna = request.getParameter("vacuna");
 
             Integer idInt = Integer.parseInt(id);
-            boolean vacunaBoo = Boolean.parseBoolean(vacuna);
+            boolean vacunas = Boolean.parseBoolean(vacuna);
 
             Mascotas mascota = new Mascotas();
             mascota.setId(idInt);
@@ -104,7 +104,7 @@ public class MascotasController extends HttpServlet {
             mascota.setRaza(raza);
             mascota.setEdad(edad);
             mascota.setGenero(genero);
-            mascota.setVacuna(vacunaBoo);
+            mascota.setVacunas(vacunas);
 
             if (boton.equals("grabar")) {
                 dao.create(mascota);
@@ -123,6 +123,6 @@ public class MascotasController extends HttpServlet {
     @Override
     public String getServletInfo() {
         return "Short description";
-    }// </editor-fold>
+    }
 
 }

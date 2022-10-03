@@ -14,10 +14,10 @@
     <body>
         <h1>Registro de Mascotas</h1>
         <form name="form" action="MascotasController" method="GET">
-        <button type="submit" name="accion" value="agregar" class="btn btn-success">Agregar</button>
-        <button type="submit" name="accion" value="editar" class="btn btn-success">Editar</button>
-        <button type="submit" name="accion" value="eliminar" class="btn btn-success">Eliminar</button>
-        <button type="submit" name="accion" value="listar" class="btn btn-success">Lista</button>
+            <button type="submit" name="accion" value="agregar" class="btn btn-success">Agregar</button> <br><br>
+            <button type="submit" name="accion" value="editar" class="btn btn-success">Editar</button><br><br>
+            <button type="submit" name="accion" value="eliminar" class="btn btn-success">Eliminar</button><br><br>
+            <button type="submit" name="accion" value="listar" class="btn btn-success">Lista</button><br><br>
         </form>
     </body>
 </html>
